@@ -1,0 +1,23 @@
+.popup{
+    margin: 2.5vw; display: flex;
+}
+
+.input1, .input2, .input0{
+    display: block;
+    height: auto;
+    margin-left: 5vw;
+    height: clamp(30px, 2.5vh, 60px);
+
+}
+
+.popup-content .onclick{
+    display: flex; gap: 12vw; margin-top: 1.5vh;
+          margin-left: 4.5vw;
+    
+}
+ button{
+    height: clamp(30px, 2.5vh, 50px);
+}
+
+
+

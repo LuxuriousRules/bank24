@@ -1,0 +1,117 @@
+ body {
+    padding: 0; margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: dmsans, sans-serif; }
+
+.banquee__logo{
+    display: inline-flex;
+    margin: 1vw;
+}
+
+
+.main__nav_button{
+    display: inline-flex; flex-direction: row-reverse;
+    justify-content: flex-end; align-items: flex-start;
+    gap: 1vw; margin: 1vw;
+}   
+
+.wrapper__logo__main_nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.features{
+    display: flex;
+    background-color: #d3f3ec;
+    
+}
+.wrapper_features {
+    display: flex; flex-direction: column;
+    justify-content: center; 
+}
+.feature{
+    display: flex; justify-content: center;
+}
+
+.wrapper__features_button{
+    display: flex; justify-content: center; align-items: center;
+   
+}
+
+ a.compare_cards {
+    text-decoration: none;
+    font-size: large; color: rgb(29, 166, 120);
+    
+}
+
+button.OpenAccount{
+    font-size: larger; margin-right: 3vw;
+}
+.title_account p,h2{
+    margin-bottom: 0;
+    
+
+}
+.title_account{
+    display: flex;
+    flex-direction: column; 
+    text-align: center;
+}
+
+.card__basic{                  
+    display: flex;
+    justify-content: center;
+    gap: 2vw;
+}
+.popular{
+    color: #5BB5A2;
+    background-color: rgb(239, 239, 239);
+
+}
+.free{ font-size: xx-large; margin: 0;}
+.card__basic_tittle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card__basic_tittle p{ text-align: center;}
+.card__basic_button button{
+    width: clamp(430px, 100vw, 1200px);
+    font-size: larger;
+}
+p{ text-align: center;}
+.card__black{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card__black--header{ height: clamp(40px, 1vh, 40px);}
+.card__black--header{
+    display: flex; gap: 1vw;
+    margin-top: 1vh; align-items: center;
+}  
+
+.card__black--button button{
+    width: clamp(430px, 100vw, 1200px);
+    font-size: larger;
+}
+
+.card--gold{
+    display: flex; flex-direction: column;
+    justify-content: center; align-items: center;
+}
+.card__header--img{height: clamp(40px, 1vh, 40px);}
+
+.card__header{
+    display: flex;
+    align-items: center;
+    margin-top: 1vh;
+}
+.card__button{
+     width: clamp(430px, 100vw, 1200px);
+    font-size: larger;
+
+}

@@ -1,0 +1,72 @@
+.body{
+    padding: 0; margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: dmsans, sans-serif; }
+
+.nav{
+    margin: clamp(2px, 1vw, 5px);
+}    
+
+.nav__wrapper-logo-button{
+    display: flex;
+}
+.nav__button-login-openAccount{
+    display: flex; gap: 1vw;
+    justify-content: flex-end; width: 100%;
+}
+
+.nav__menu-list{
+    display: flex;
+    justify-content: center;
+    gap: 11vw; justify-content: space-around;
+    margin-right: 7vw;
+    
+}
+.support{
+    background-color:#e3f7f2 ;
+}
+.support__main{
+    display: flex;
+    justify-content: center; 
+    flex-direction: column; 
+}
+.support__main-text{    
+    font-size: x-large;
+    margin-top: 0; 
+
+}
+.support__wrapper-img{
+    display: flex;
+    
+}
+.support-img{
+    width: clamp(200px, 2.5vw, 200px);
+    height: auto;    
+}  
+.support__container{
+    display: flex;
+}
+.support__main, .support__wrapper-img{
+    flex: 1;
+}
+
+.help-desk{
+    background-color:#e3f7f2 ;
+    font-size: clamp(16px, 1vh, 32px);
+}
+
+.help-desk__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.help-desk__tittle,
+.help-desc__phone,
+.help-desk__email,
+.help-desk__buttom{
+    flex: 1;
+}
