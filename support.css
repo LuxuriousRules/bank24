@@ -58,6 +58,7 @@
     font-size: clamp(16px, 1vh, 32px);
 }
 
+
 .help-desk__wrapper{
     display: flex;
     flex-direction: column;
@@ -69,4 +70,67 @@
 .help-desk__email,
 .help-desk__buttom{
     flex: 1;
+}
+
+
+.faq__wrapper{
+    display: flex;
+}
+
+.faq__categories,
+.faq__list{
+    flex: 1;
+}
+
+
+.faq__list{
+    display: flex;
+    justify-content: center;     
+}
+
+.faq__list-card{
+    font-size: clamp(32px, 2vw, 40px);
+}
+.faq__list-card,
+.faq__list-card--icon{
+    display: flex;
+    align-items: center; gap: 1vw;
+}  
+.faq__categories-title{
+    margin-left: 5vw; margin-bottom: 0;
+}
+.faq__categories{
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.question__faq1{
+    display: flex;
+    width: 100vw;
+}
+.question__faq-text,
+.question__faq--icon{
+    display: flex;  gap: 5vw;
+    flex-direction: row-reverse;
+    width: 100vw; justify-content: center;
+}
+
+.question__faq-2{
+    
+}
+.question__faq-text2,
+.question__faq--icon2{
+   display: flex;  gap: 5vw;
+    flex-direction: row-reverse;
+    width: 100vw; justify-content: center; 
+}
+
+.footer__logo{
+    max-height: clamp(32px, 2vh, 50px);
+    margin: 1vh;
+}
+
+.footer__wrapper{
+    display: flex;
 }
